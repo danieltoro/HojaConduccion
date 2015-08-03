@@ -15,5 +15,15 @@ namespace HojaConduccion.Models
 
         public int Radio { get; set; }
 
+        public string LugarIni { get; set; }
+
+        public DateTime HoraIni { get; set; }
+
+        public DateTime HoraFin { get; set; }
+
+        public string LugarFin { get; set; }
+
+
+
     }
 }
